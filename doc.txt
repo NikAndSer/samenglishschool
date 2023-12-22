@@ -1,0 +1,34 @@
+=)prettier error - footer was in body not after
+=)footer not full width - same
+
+!!! First make a list of everything to add on the page
+List:
+    1) Add Pages:
+        =)1. Contact Us 
+        ~2. Recruitment
+        ~3. Courses
+    ~ 2) Add Zalo Bage - link to zalo Contact
+    =) 3) FIX footer:
+        =)1. Top picture
+        ~2. Back to home 
+        =) 3. Add Icons
+            1. Find Zalo Icon 
+    =) 3) Fix courses grid
+    4) Fix Specialized Programs grid
+    5) Fix carousel
+    
+
+!!! Second add everything on a page, don't worry about style yet
+!!! Third - organize and style
+    1) Section separator - golden wreath
+    2) Navbar
+        1.Mark the page were currently on with color
+    3) footer   
+        1. Back to home
+    4) Icons    
+        1. Zalo
+!!! Last - Deploy
+
+Deploy to GitHub
+Host on Cloudflare
+Setup DNS (if needed)

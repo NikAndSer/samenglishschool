@@ -1,0 +1,170 @@
+$primary: rgb(55, 98, 160);
+$warning: rgb(235, 202, 146);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// @import '../node_modules/bootstrap/scss/functions';
+/* Import the desired Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Apply the font to the body or specific elements */
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14pt;
+}
+
+.card-title {
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.welcome {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.headers {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.navbar {
+    background: linear-gradient(to bottom right,
+            rgb(22, 41, 85) 0%,
+            rgb(55, 98, 160) 50%,
+            rgb(55, 98, 160, 0.5) 80%,
+            transparent 100%);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+img.img-fluid.hero-image {
+    animation: pulseAnimation 6s infinite alternate;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 5%;
+    left: 3.3%;
+    padding: 10px 20px;
+}
+
+
+.carousel {
+    width: 70%;
+    /* Set the width of the carousel */
+    margin: 100px auto 100px auto;
+    /* Center the carousel */
+    position: relative;
+}
+
+.carousel img {
+    border-radius: 25px;
+}
+
+
+.equal-text {
+    // height: 100px;
+    // width: 150px;
+    // overflow: hidden;
+    text-justify: distribute-all-lines;
+    /* Apply text justification */
+    text-align: justify;
+    /* For browsers that do not support text-justify */
+}
+
+.wreath {
+    margin: 100px auto 100px auto;
+}
+
+.contactus {
+    margin: 115px auto 150px auto;
+}
+
+
+.wrap-wrapper {
+    background-image: url('https://images.pexels.com/photos/6140676/pexels-photo-6140676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 0;
+    margin-top: -400px;
+}
+
+.footer-wrapper {
+    background: linear-gradient(to top right, rgb(22, 41, 85) 10%, rgb(55, 98, 160, )30%, transparent 100%);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 0;
+
+}
+
+.recruit {
+    position: relative;
+    top: 100px;
+}
+
+.foot-contact {
+    position: relative;
+    top: 280px;
+}
+
+
+/* CSS for Linear Gradient Footer Background */
+footer {
+    // background: linear-gradient(to top right, rgb(22, 41, 85) 10%, rgb(55, 98, 160, )30%, transparent 100%);
+    // margin-bottom: -30px;
+    position: relative;
+    top: 520px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.pages-wrapper {
+    margin-top: 150px;
+}
+
+.job-sections {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px
+}
+
+
+
+
+@keyframes pulseAnimation {
+    from {
+        transform: scale(0.97);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Transparent navbar for large screens */
+@media (max-width: 768px) {
+    .hero-image {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .foot-contact {
+        position: relative;
+        top: 50px;
+    }
+}
