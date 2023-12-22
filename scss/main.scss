@@ -44,9 +44,9 @@ body {
     text-align: center;
 }
 
-img.img-fluid.hero-image {
-    animation: pulseAnimation 6s infinite alternate;
-}
+// img.img-fluid.hero-image {
+//     animation: pulseAnimation 6s infinite alternate;
+// }
 
 .hero-button {
     position: absolute;
@@ -143,15 +143,15 @@ footer a {
 
 
 
-@keyframes pulseAnimation {
-    from {
-        transform: scale(0.97);
-    }
+// @keyframes pulseAnimation {
+//     from {
+//         transform: scale(0.97);
+//     }
 
-    to {
-        transform: scale(1);
-    }
-}
+//     to {
+//         transform: scale(1);
+//     }
+// }
 
 /* Transparent navbar for large screens */
 @media (max-width: 768px) {
