@@ -69,15 +69,15 @@ img.img-fluid.hero-image {
 }
 
 
-.equal-text {
-    // height: 100px;
-    // width: 150px;
-    // overflow: hidden;
-    text-justify: distribute-all-lines;
-    /* Apply text justification */
-    text-align: justify;
-    /* For browsers that do not support text-justify */
-}
+// .equal-text {
+//     // height: 100px;
+//     // width: 150px;
+//     // overflow: hidden;
+//     text-justify: distribute-all-lines;
+//     /* Apply text justification */
+//     text-align: ;
+//     /* For browsers that do not support text-justify */
+// }
 
 .wreath {
     margin: 100px auto 100px auto;
@@ -153,6 +153,18 @@ footer a {
     }
 }
 
+@media (min-width: 900px) {
+    .equal-text {
+        // height: 100px;
+        // width: 150px;
+        // overflow: hidden;
+        text-justify: distribute-all-lines;
+        /* Apply text justification */
+        text-align: justify;
+        /* For browsers that do not support text-justify */
+    }
+}
+
 /* Transparent navbar for large screens */
 @media (max-width: 768px) {
     .hero-image {
@@ -166,5 +178,10 @@ footer a {
     .foot-contact {
         position: relative;
         top: 50px;
+    }
+
+    .wreath {
+        margin: 50px auto 50px auto;
+        width: 100%;
     }
 }
