@@ -39,6 +39,8 @@ body {
 }
 
 
+
+
 .hero-container {
     position: relative;
     text-align: center;
@@ -54,6 +56,23 @@ img.img-fluid.hero-image {
     left: 3.3%;
     padding: 10px 20px;
 }
+
+// FAB
+// .floating-action-button {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+// }
+
+.floating-action-button img {
+    width: 50px;
+    /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;
+    /* For a circular button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 
 
 .carousel {
